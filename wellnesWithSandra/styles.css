@@ -1,0 +1,210 @@
+body {
+  padding: 20px;
+}
+.site-container {
+  border: 5px solid black;
+  display: grid;
+}
+
+/* homepage stuff */
+.homepage-container {
+  padding: 20px;
+  border: 5px solid blue;
+  display: grid;
+  background: url('content/annie-spratt-unsplash.jpg');
+  background-size: 100%;
+}
+
+.top-bar {
+  border: 5px solid black;
+  display: grid;
+  grid-template-columns: 30% repeat(7, 70%);
+  gap: 5px;
+}
+.main-nav {
+  border: 2px solid black;
+}
+
+.sticky-nav {
+  border: 2px solid black;
+  display: inline-flex;
+}
+
+.homepage-content {
+  border: 2px solid black;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+.homepage-watermark {
+  border-top: 50%;
+}
+
+/* end of homepage stuff */
+
+/* about page stuff */
+.about-container {
+  padding: 20px;
+  border: 5px solid red;
+  display: grid;
+}
+
+.about-me {
+  border: 2px solid black;
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
+.about-upper {
+  border: 2px solid black;
+}
+.about-lower {
+  border: 2px solid black;
+}
+
+/* end of about page stuff */
+
+/* third page stuff */
+.third-page-container {
+  padding: 20px;
+  border: 5px solid yellow;
+  display: grid;
+  background-color: red;
+}
+.third-page {
+  border: 2px solid black;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+/* end third page stuff */
+
+/* fourth page stuff */
+.fourth-page {
+  padding: 20px;
+  border: 5px solid green;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+/* end of fourth page stuff */
+
+/* services page stuff */
+.services-container {
+  padding: 20px;
+  border: 5px solid orange;
+  display: grid;
+}
+.graphic-containers {
+  padding: 20px;
+  border: 5px solid black;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+.graphic-container1 {
+  padding: 20px;
+  border: 5px solid black;
+  display: grid;
+}
+.graphic-container2 {
+  padding: 20px;
+  border: 5px solid black;
+  display: grid;
+}
+.graphic-container3 {
+  padding: 20px;
+  border: 5px solid black;
+  display: grid;
+}
+
+/* end of services page stuff */
+
+/* plan page stuff */
+.plan-container {
+  padding: 20px;
+  border: 5px solid aquamarine;
+  display: grid;
+}
+.plan-containers {
+  padding: 20px;
+  border: 2px solid black;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  gap: 10px;
+}
+.plan-container1 {
+  padding: 20px;
+  border: 2px solid black;
+  display: grid;
+  gap: 5px;
+}
+.plan-container2 {
+  padding: 20px;
+  border: 2px solid black;
+  display: grid;
+  gap: 5px;
+}
+.plan-container3 {
+  padding: 20px;
+  border: 2px solid black;
+  display: grid;
+  gap: 5px;
+}
+.plan-container4 {
+  padding: 20px;
+  border: 2px solid black;
+  display: grid;
+  gap: 5px;
+}
+/* end of plan page stuff */
+
+/* special page stuff */
+.special-container {
+  padding: 20px;
+  border: 5px solid purple;
+  display: grid;
+}
+.special-page {
+  padding: 20px;
+  border: 5px solid black;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+/* end of special page stuff */
+
+/* contact page stuff */
+.contact-page {
+  padding: 20px;
+  border: 5px solid black;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+/* end of contact page stuff */
+
+/* testimonial page  */
+.testimonial-page {
+  padding: 20px;
+  border: 5px solid black;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+/* footer page stuff */
+footer {
+  padding: 20px;
+  border: 5px solid maroon;
+  display: grid;
+}
+/* end of footer page stuff */
+
+/* copyright stuff*/
+.copyright-content {
+  padding: 20px;
+  border: 5px solid lime;
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+.copyright-icons {
+  padding: 60px;
+  display: inline-flex;
+}
+
+/* end of copyright stuff */
